@@ -1,0 +1,16 @@
+{
+  "task": [
+    { "id": 1, "name": "Task 1", "nkt": "2020-08-08", "idtype": 2, "status": "new" },
+    { "id": 2, "name": "Task 2", "nkt": "2020-08-09", "idtype": 1, "status": "progress" },
+    { "id": 3, "name": "Task 3", "nkt": "2020-08-07", "idtype": 3, "status": "done" }
+  ],
+  "employee": [
+    { "id": 1, "username": "user1234", "email": "user1234@gmail.com", "password": "12345678" },
+    { "id": 2, "username": "user123", "email": "user123@gmail.com", "password": "12345678" }
+  ],
+  "category": [
+    { "id": 1, "name": "ltfe" },
+    { "id": 2, "name": "ltbe" },
+    { "id": 3, "name": "ltf" }
+  ]
+}
