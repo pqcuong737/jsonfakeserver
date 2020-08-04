@@ -1,8 +1,8 @@
 {
   "task": [
-    { "id": 1, "name": "Task 1", "nkt": "2020-08-08", "idtype": 2, "status": "new" },
-    { "id": 2, "name": "Task 2", "nkt": "2020-08-09", "idtype": 1, "status": "progress" },
-    { "id": 3, "name": "Task 3", "nkt": "2020-08-07", "idtype": 3, "status": "done" }
+    { "id": 1, "task_name": "Task 1", "task_type": "Epic", "start_date": "2020-08-08", "end_date": "2020-08-08", "status": "New", "assignee": "PQC" },
+    { "id": 2, "task_name": "Task 2", "task_type": "Epic", "start_date": "2020-08-08", "end_date": "2020-08-08", "status": "New", "assignee": "PQC" },
+    { "id": 3, "task_name": "Task 3", "task_type": "Epic", "start_date": "2020-08-08", "end_date": "2020-08-08", "status": "New", "assignee": "PQC" }
   ],
   "employee": [
     { "id": 1, "username": "user1234", "email": "user1234@gmail.com", "password": "12345678" },
