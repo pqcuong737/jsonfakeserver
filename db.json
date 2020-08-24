@@ -12,6 +12,9 @@
   "category": [
     { "id": 1, "name": "ltfe" },
     { "id": 2, "name": "ltbe" },
-    { "id": 3, "name": "ltf" }
+    { "id": 3, "name": "ltf1" },
+    { "id": 4, "name": "ltf2" },
+    { "id": 5, "name": "ltf3" },
+    { "id": 6, "name": "ltf4" },
   ]
 }
