@@ -14,6 +14,13 @@
     { "id": 2, "name": "ltbe" },
     { "id": 3, "name": "ltf1" },
     { "id": 4, "name": "ltf2" },
-    { "id": 5, "name": "ltf3" }
+    { "id": 5, "name": "ltf3" },
+    { "id": 6, "name": "ltf3a" },
+    { "id": 7, "name": "ltf3s" },
+    { "id": 8, "name": "ltf3d" },
+    { "id": 9, "name": "ltf3f" },
+    { "id": 10, "name": "ltf3g" },
+    { "id": 11, "name": "ltf3s" },
+    { "id": 12, "name": "ltf3a" },
   ]
 }
