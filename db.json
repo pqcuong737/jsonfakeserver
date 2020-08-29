@@ -26,11 +26,11 @@
   "product": {
     "id": 0,
     "name": "string",
-    "imageUrl": "string",
-    "introduction": "string",
-    "description": "string",
+    "imageUrl": "/img/robot-01.jpg",
+    "introduction": "CALIBER DUW 2002 manual <br /> MOVEMENT HEIGHT 3.6 mm <br /> DIAMETER 32.6 by 22.6 mm <br /> POWER RESERVEup to 84 hours <br /> JEWELS 23",
+    "description": "Lorem Repellendus ullam odit placeat, non rem eaque. ipsum dolor sit amet consectetur adipisicing elit. Repellendus Repellendus ullam odit placeat, non rem eaque.ullam odit placeat, non rem eaque.",
     "status": "DRAFT",
-    "retailPrice": 0,
+    "retailPrice": 2000,
     "SKU": "string",
     "created_at": "2020-08-29T02:47:40.753Z",
     "updated_at": "2020-08-29T02:47:40.753Z",
@@ -40,7 +40,25 @@
         "name": "string",
         "order": 0,
         "description": "string",
-        "mediaUrl": "string",
+        "mediaUrl": "/img/robot-01.jpg",
+        "created_at": "2020-08-29T02:47:40.753Z",
+        "updated_at": "2020-08-29T02:47:40.753Z"
+      },
+      {
+        "id": 1,
+        "name": "string",
+        "order": 0,
+        "description": "string",
+        "mediaUrl": "/img/robot-01-02.png",
+        "created_at": "2020-08-29T02:47:40.753Z",
+        "updated_at": "2020-08-29T02:47:40.753Z"
+      },
+      {
+        "id": 2,
+        "name": "string",
+        "order": 0,
+        "description": "string",
+        "mediaUrl": "/img/robot-01-03.png",
         "created_at": "2020-08-29T02:47:40.753Z",
         "updated_at": "2020-08-29T02:47:40.753Z"
       }
