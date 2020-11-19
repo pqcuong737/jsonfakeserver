@@ -1,36 +1,8 @@
 {
-  "task": [
-    { "id": 1, "task_name": "Task 1", "tasktype_name": "Epic", "start_date": "2020-08-08", "end_date": "2020-08-08", "status_name": "New", "full_name": "PQC1" },
-    { "id": 2, "task_name": "Task 2", "tasktype_name": "High", "start_date": "2020-08-08", "end_date": "2020-08-08", "status_name": "New", "full_name": "PQC2" },
-    { "id": 3, "task_name": "Task 3", "tasktype_name": "Epic", "start_date": "2020-08-08", "end_date": "2020-08-08", "status_name": "New", "full_name": "PQC3" },
-    { "id": 4, "task_name": "Task 4", "tasktype_name": "Low", "start_date": "2020-08-08", "end_date": "2020-08-08", "status_name": "New", "full_name": "PQC4" }
-  ],
-  "reward": [
-    { "account": "pqcuong", "amount": 10, "paymentOrder": "nope", "status": true, "datetime": "2020-08-29T02:47:40.753Z" },
-    { "account": "vietbede", "amount": 20, "paymentOrder": "user123@gmail.com", "password": "12345678" }
-  ],
   "referral": [
     { "id": 1, "statuss": "one", "block": true, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 2, "status": "two", "block": false, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" }
    ],
-  "employee": [
-    { "id": 1, "username": "user1234", "email": "user1234@gmail.com", "password": "12345678" },
-    { "id": 2, "username": "user123", "email": "user123@gmail.com", "password": "12345678" }
-  ],
-  "category": [
-    { "id": 1, "name": "ltfe" },
-    { "id": 2, "name": "ltbe" },
-    { "id": 3, "name": "ltf1" },
-    { "id": 4, "name": "ltf2" },
-    { "id": 5, "name": "ltf3" },
-    { "id": 6, "name": "ltf3a" },
-    { "id": 7, "name": "ltf3s" },
-    { "id": 8, "name": "ltf3d" },
-    { "id": 9, "name": "ltf3f" },
-    { "id": 10, "name": "ltf3g" },
-    { "id": 11, "name": "ltf3s" },
-    { "id": 12, "name": "ltf3a" }
-  ],
   "product": {
     "id": 0,
     "name": "string",
