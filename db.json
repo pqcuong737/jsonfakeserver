@@ -3,80 +3,8 @@
     { "id": 1, "statuss": "one", "block": true, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 2, "status": "two", "block": false, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" }
    ],
-  "product": {
-    "id": 0,
-    "name": "string",
-    "imageUrl": "/img/robot-01.jpg",
-    "introduction": "Caliber Duw 2002 manual <br /> Movement Height 3.6 mm <br /> Diameter 32.6 by 22.6 mm <br /> Power ReserveUp to 84 hours <br /> Jewels 23",
-    "description": "Lorem Repellendus ullam odit placeat, non rem eaque. ipsum dolor sit amet consectetur adipisicing elit. Repellendus Repellendus ullam odit placeat, non rem eaque.ullam odit placeat, non rem eaque.",
-    "status": "DRAFT",
-    "retailPrice": 2000,
-    "SKU": "string",
-    "created_at": "2020-08-29T02:47:40.753Z",
-    "updated_at": "2020-08-29T02:47:40.753Z",
-    "screenshots": [
-      {
-        "id": 0,
-        "name": "string",
-        "order": 0,
-        "description": "string",
-        "mediaUrl": "/img/robot-01.jpg",
-        "created_at": "2020-08-29T02:47:40.753Z",
-        "updated_at": "2020-08-29T02:47:40.753Z"
-      },
-      {
-        "id": 1,
-        "name": "string",
-        "order": 0,
-        "description": "string",
-        "mediaUrl": "/img/robot-01-02.png",
-        "created_at": "2020-08-29T02:47:40.753Z",
-        "updated_at": "2020-08-29T02:47:40.753Z"
-      },
-      {
-        "id": 2,
-        "name": "string",
-        "order": 0,
-        "description": "string",
-        "mediaUrl": "/img/robot-01-03.png",
-        "created_at": "2020-08-29T02:47:40.753Z",
-        "updated_at": "2020-08-29T02:47:40.753Z"
-      }
-    ]
-  },
-  "userme": {
-    "id": 0,
-    "email": "string",
-    "fullName": "string",
-    "description": "string",
-    "role": "AUTHORED_USER",
-    "status": "NEW",
-    "avatarUrl": "string",
-    "phone": "string",
-    "address": "string",
-    "city": "string",
-    "county": "VN",
-    "lastLogin": "2020-09-04T08:47:00.481Z",
-    "created_at": "2020-09-04T08:47:00.481Z",
-    "updated_at": "2020-09-04T08:47:00.481Z",
-    "oauthGoogleId": "string",
-    "oauthFacebookId": "string",
-    "socials": [
-      {
-        "id": 0,
-        "type": "facebook",
-        "url": "string"
-      }
-    ],
-    "position": "string",
-    "taxCode": "string",
-    "website": "string",
-    "industry": "string",
-    "contactPerson": "string",
-    "employeeSize": "microentreprises"
-  },
   "posts": [
     { "id": 1, "statuss": "one", "block": true, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 2, "status": "two", "block": false, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" }
-   ],
+   ]
 }
