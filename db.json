@@ -74,7 +74,7 @@
     "industry": "string",
     "contactPerson": "string",
     "employeeSize": "microentreprises"
-  }
+  },
   "posts": [
     { "id": 1, "title": "content post 1", "introduce": "introduce post 1", "author": "author post 1", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 2, "title": "content post 2", "introduce": "introduce post 2", "author": "author post 2", "updatedAt": "2020-08-29T02:47:40.753Z" },
