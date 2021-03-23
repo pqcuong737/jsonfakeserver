@@ -5,7 +5,6 @@
    ],
   "posts": [
     { "id": 1, "title": "content post 1", "introduce": "introduce post 1", "author": "author post 1", "image":"http://giaitri365.net/wp-content/uploads/2020/03/hinh-nen-thien-nhien-phong-canh-dep-91_043208753.jpg", "updatedAt": "2020-08-29T02:47:40.753Z" },
-    { "id": 1, "title": "content post 1", "introduce": "introduce post 1", "author": "author post 1", "image":"http://giaitri365.net/wp-content/uploads/2020/03/hinh-nen-thien-nhien-phong-canh-dep-91_043208753.jpg", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 2, "title": "content post 2", "introduce": "introduce post 2", "author": "author post 2", "image":"http://giaitri365.net/wp-content/uploads/2020/03/hinh-nen-thien-nhien-phong-canh-dep-1_043140595.jpeg", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 3, "title": "content post 3", "introduce": "introduce post 3", "author": "author post 3", "image":"http://giaitri365.net/wp-content/uploads/2020/03/hinh-nen-thien-nhien-phong-canh-dep-3_043140907.jpeg", "updatedAt": "2020-08-29T02:47:40.753Z" }
    ]
