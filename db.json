@@ -12,5 +12,36 @@
     { "id": 6, "title": "Content post 6", "introduce": "Introduce post 6", "author": "author post 6", "image":"https://excel-cracker.com/wp-content/uploads/2019/10/anh-con-meo-20.jpg", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 7, "title": "Content post 7", "introduce": "Introduce post 7", "author": "author post 7", "image":"https://excel-cracker.com/wp-content/uploads/2019/10/anh-con-meo-23.jpg", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 8, "title": "Content post 8", "introduce": "Introduce post 8", "author": "author post 8", "image":"https://excel-cracker.com/wp-content/uploads/2019/10/anh-con-meo-24.jpg", "updatedAt": "2020-08-29T02:47:40.753Z" }
-   ]
+   ],
+  "cart-courses":[
+  {
+    "id": "cls_01",
+    "img": "static/images/tst_logo.jpg",
+    "name":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "price": "5.000.000",
+    "teacher": "Mrs.Thuy",
+  },
+  {
+    "id": "cls_02",
+    "img": "static/images/tst_logo.jpg",
+    "name": "Class number 02",
+    "price": "2.500.000",
+    "teacher": "Mrs.Tuyet",
+  },
+  {
+    "id": "cls_03",
+    "img": "static/images/tst_logo.jpg",
+    "name": "Class number 03",
+    "price": "4.000.000",
+    "teacher": "Mrs.Minh",
+  },
+  {
+    "id": "cls_04",
+    "img": "static/images/tst_logo.jpg",
+    "name": "Class number 04",
+    "price": "3.000.000",
+    "teacher": "Mrs.Loi",
+  },
+];
 }
