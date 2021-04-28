@@ -45,23 +45,23 @@
     },
   ],
   "payslip-by-teacherid": {
-    amount: 9000000,
-    PIT: 0.2,
-    classesTeaching: [
+    "amount": 9000000,
+    "PIT": 0.2,
+    "classesTeaching": [
       {
-        classId: "qwer1234",
-        className: "Lớp học nấu ăn",
-        tuition: 2000000,
+        "classId": "qwer1234",
+        "className": "Lớp học nấu ăn",
+        "tuition": 2000000,
       },
       {
-        classId: "asdf5678",
-        className: "Lớp học công nghệ",
-        tuition: 3000000
+        "classId": "asdf5678",
+        "className": "Lớp học công nghệ",
+        "tuition": 3000000
       },
       {
-        classId: "zxcv9879",
-        className: "Lớp học lái xe",
-        tuition: 4000000
+        "classId": "zxcv9879",
+        "className": "Lớp học lái xe",
+        "tuition": 4000000
       }
     ]
   }
