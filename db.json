@@ -20,10 +20,6 @@
       }
     ]
   },
-  "referral": [
-    { "id": 1, "statuss": "one", "block": true, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" },
-    { "id": 2, "status": "two", "block": false, "createdAt": "2020-08-29T02:47:40.753Z", "updatedAt": "2020-08-29T02:47:40.753Z" }
-   ],
   "posts": [
     { "id": 1, "title": "Content post 1", "introduce": "Introduce post 1", "author": "author post 1", "image":"https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg", "updatedAt": "2020-08-29T02:47:40.753Z" },
     { "id": 2, "title": "Content post 2", "introduce": "Introduce post 2", "author": "author post 2", "image":"https://i.fltcdn.net/contents/1519/original_1437543981830_j6ozluzbyb9.jpeg", "updatedAt": "2020-08-29T02:47:40.753Z" },
