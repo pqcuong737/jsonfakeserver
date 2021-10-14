@@ -60,5 +60,22 @@
       "price": "3.000.000",
       "teacher": "Mrs.Loi",
     },
-  ]
+  ],
+  "pricesetting": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": {
+      "Id": 1,
+      "OverwiteDefaultSalesPrice": true,
+      "DistributerSalesPrice": false,
+      "ReferenceSellingPrice": false,
+      "SalesPriceRouding": 1,
+      "CreatedDate": "2017-03-14T00:00:00",
+      "UpdatedDate": "2017-03-14T00:00:00",
+      "CreatedBy": "hsjdhf",
+      "UpdatedBy": "skdjf"
+  }
 }
