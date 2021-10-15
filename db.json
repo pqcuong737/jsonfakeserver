@@ -138,5 +138,61 @@
         "UpdatedBy": "developer"
       }
     ]
+  },
+  "defineprioritypricelisttype": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": 1,
+        "SalesTerritoryCode": "THPGT",
+        "PriceType": [
+          {
+            "Id": 1,
+            "PriceTypeName": "Sales Price",
+            "DefinePriority": [
+              {
+                "Id": 1,
+                "Priority": 0,
+                "PriceListTypeCode": "PLT_01",
+                "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA"
+              }
+            ]
+          },
+          {
+            "Id": 2,
+            "PriceTypeName": "Purchase Price",
+            "DefinePriority": [
+              {
+                "Id": 1,
+                "Priority": 0,
+                "PriceListTypeCode": "PLT_02",
+                "PriceListTypeDescription": "Bảng giá mua áp dụng theo ST"
+              },
+              {
+                "Id": 2,
+                "Priority": 1,
+                "PriceListTypeCode": "PLT_03",
+                "PriceListTypeDescription": "Bảng giá mua áp dụng theo hàng lẻ & mặt tiền đường"
+              },
+              {
+                "Id": 3,
+                "Priority": 3,
+                "PriceListTypeCode": "PLT_04",
+                "PriceListTypeDescription": "Bảng giá mua áp dụng theo khách hàng lẻ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "SalesTerritoryCode": "THGTB",
+        "PriceType": []
+      }
+    ]
   }
 }
