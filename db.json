@@ -103,5 +103,40 @@
       "CreatedBy": "hsjdhf",
       "UpdatedBy": "skdjf"
     }
+  },
+  "pricelisttype": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": 1,
+        "PriceListTypeCode": 1,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryLevel": "Area",
+        "ApplyToDSA": true,
+        "Status": true,
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      },
+      {
+        "Id": 2,
+        "PriceListTypeCode": 2,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo Region",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryLevel": "Area",
+        "ApplyToDSA": true,
+        "Status": true,
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      }
+    ]
   }
 }
