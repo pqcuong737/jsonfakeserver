@@ -194,5 +194,42 @@
         "PriceType": []
       }
     ]
+  },
+  "pricelist": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": 1,
+        "PriceListCode": "PL_03",
+        "PriceListDescription": "Bảng giá mua áp DSA < 200m",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryDescription": "Khu vực bán hàng kênh GT",
+        "PriceType": "Purchase Price",
+        "PriceListStatus": true,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA",
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      },
+      {
+        "Id": 2,
+        "PriceListCode": "PL_04",
+        "PriceListDescription": "Bảng giá mua áp Region < 200m",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryDescription": "Khu vực bán hàng kênh GT",
+        "PriceType": "Purchase Price",
+        "PriceListStatus": true,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo Region",
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      }
+    ]
   }
 }
