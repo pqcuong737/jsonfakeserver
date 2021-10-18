@@ -130,5 +130,24 @@
         "UpdatedBy": "developer"
       }
     ]
+  },
+  "uomitemgroup": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": "1",
+        "DistributorSellingAreaCode": "DSA-294",
+        "DistributorSellingAreaDescription": "Khu vực DSA"
+      },
+      {
+        "Id": "2",
+        "DistributorSellingAreaCode": "DSA-295",
+        "DistributorSellingAreaDescription": "Khu vực DSA"
+      }
+    ]
   }
 }
