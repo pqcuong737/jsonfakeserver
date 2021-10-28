@@ -34,61 +34,74 @@
       }
     ]
   },
-  "defineprioritypricelisttype": {
+  "baseprice": {
     "ObjectId": 0,
-    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "ObjectGuidId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
     "Code": 0,
-    "Message": "",
+    "Message": "string",
     "IsSuccess": true,
-    "Data": [
-      {
-        "Id": 1,
-        "SalesTerritoryCode": "THPGT",
-        "PriceType": [
-          {
-            "Id": 1,
-            "PriceTypeName": "Sales Price",
-            "DefinePriority": [
-              {
-                "Id": 1,
-                "Priority": 0,
-                "PriceListTypeCode": "PLT_01",
-                "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA"
-              }
-            ]
-          },
-          {
-            "Id": 2,
-            "PriceTypeName": "Purchase Price",
-            "DefinePriority": [
-              {
-                "Id": 1,
-                "Priority": 0,
-                "PriceListTypeCode": "PLT_02",
-                "PriceListTypeDescription": "Bảng giá mua áp dụng theo ST"
-              },
-              {
-                "Id": 2,
-                "Priority": 1,
-                "PriceListTypeCode": "PLT_03",
-                "PriceListTypeDescription": "Bảng giá mua áp dụng theo hàng lẻ & mặt tiền đường"
-              },
-              {
-                "Id": 3,
-                "Priority": 3,
-                "PriceListTypeCode": "PLT_04",
-                "PriceListTypeDescription": "Bảng giá mua áp dụng theo khách hàng lẻ"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "Id": 2,
-        "SalesTerritoryCode": "THGTB",
-        "PriceType": []
-      }
-    ]
+    "Data": {
+      "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "BasePriceCode": "string",
+      "Description": "string",
+      "PriceType": "string",
+      "ContractType": "string",
+      "PurchaseBasePriceCode": "string",
+      "SalesTerritoryCode": "string",
+      "SalesTerritoryDescription": "string",
+      "BasePriceItemGroup": [
+        {
+          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "ItemGroupCode": "string",
+          "Description": "string",
+          "UoM": "string",
+          "PurchasePrice": 0,
+          "GrossMargin": 0,
+          "Price": 0,
+          "EffectiveTime": "2021-10-29T01:06:43.707Z",
+          "ExpirationTime": "2021-10-29T01:06:43.707Z",
+          "LineNumber": 0,
+          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "BasePrice": "string",
+          "CreatedDate": "2021-10-29T01:06:43.707Z",
+          "UpdatedDate": "2021-10-29T01:06:43.707Z",
+          "CreatedBy": "string",
+          "UpdatedBy": "string"
+        }
+      ],
+      "BasePriceGrossMargin": [
+        {
+          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "EffectiveTime": "2021-10-26T01:06:43.707Z",
+          "ExpirationTime": "2021-10-27T01:06:43.707Z",
+          "GrossMargin": 5,
+          "LineNumber": 1,
+          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "BasePrice": "string",
+          "CreatedDate": "2021-10-29T01:06:43.707Z",
+          "UpdatedDate": "2021-10-29T01:06:43.707Z",
+          "CreatedBy": "string",
+          "UpdatedBy": "string"
+        },
+        {
+          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "EffectiveTime": "2021-10-28T01:06:43.707Z",
+          "ExpirationTime": "2021-10-29T01:06:43.707Z",
+          "GrossMargin": 10,
+          "LineNumber": 2,
+          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "BasePrice": "string",
+          "CreatedDate": "2021-10-29T01:06:43.707Z",
+          "UpdatedDate": "2021-10-29T01:06:43.707Z",
+          "CreatedBy": "string",
+          "UpdatedBy": "string"
+        }
+      ],
+      "CreatedDate": "2021-10-29T01:06:43.707Z",
+      "UpdatedDate": "2021-10-29T01:06:43.707Z",
+      "CreatedBy": "string",
+      "UpdatedBy": "string"
+    }
   },
   "pricelist": {
     "ObjectId": 0,
