@@ -111,7 +111,7 @@
     "IsSuccess": true,
     "Data": [
       {
-        "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "Id": "00000000-0000-0000-0000-000000000000",
         "PriceListCode": "PL_03",
         "PriceListDescription": "Bảng giá mua áp DSA < 200m",
         "SalesTerritoryCode": "THPGT",
@@ -127,7 +127,7 @@
         "UpdatedBy": "developer"
       },
       {
-        "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "Id": "00000000-0000-0000-0000-000000000000",
         "PriceListCode": "PL_04",
         "PriceListDescription": "Bảng giá mua áp Region < 200m",
         "SalesTerritoryCode": "THPGT",
