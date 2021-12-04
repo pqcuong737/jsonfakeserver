@@ -2,164 +2,177 @@
   "pricelisttype": {
     "ObjectId": 0,
     "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
-    "Code": 0,
-    "Message": "",
+    "Code": 200,
+    "Message": "Updated success",
     "IsSuccess": true,
     "Data": [
       {
-        "Id": 1,
-        "PriceListTypeCode": 1,
-        "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA",
-        "SalesTerritoryCode": "THPGT",
-        "SalesTerritoryLevel": "Area",
-        "ApplyToDSA": true,
-        "Status": true,
-        "CreatedDate": "2021-10-14T00:00:00",
-        "UpdatedDate": "2021-10-14T00:00:00",
-        "CreatedBy": "developer",
-        "UpdatedBy": "developer"
+        "Id": "01e1c42b-ca96-4415-979d-64c7f80a1593",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [],
+        "Code": "TS_08",
+        "Name": "Name test 08",
+        "Description": "Description test 08",
+        "IsActive": true,
+        "EffectiveDate": "2021-11-12T20:22:22.492",
+        "UntilDate": "2021-11-22T20:22:22.492"
       },
       {
-        "Id": 2,
-        "PriceListTypeCode": 2,
-        "PriceListTypeDescription": "Bảng giá mua áp dụng theo Region",
-        "SalesTerritoryCode": "THPGT",
-        "SalesTerritoryLevel": "Area",
-        "ApplyToDSA": true,
-        "Status": true,
-        "CreatedDate": "2021-10-14T00:00:00",
-        "UpdatedDate": "2021-10-14T00:00:00",
-        "CreatedBy": "developer",
-        "UpdatedBy": "developer"
-      }
-    ]
-  },
-  "baseprice": {
-    "ObjectId": 0,
-    "ObjectGuidId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-    "Code": 0,
-    "Message": "string",
-    "IsSuccess": true,
-    "Data": {
-      "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-      "BasePriceCode": "string",
-      "Description": "string",
-      "PriceType": "salesprice",
-      "ContractType": "string",
-      "PurchaseBasePriceCode": "string",
-      "SalesTerritoryCode": "string",
-      "SalesTerritoryDescription": "string",
-      "BasePriceItemGroup": [
-        {
-          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-          "ItemGroupCode": "string",
-          "Description": "string",
-          "UoM": "string",
-          "PurchasePrice": 0,
-          "GrossMargin": 0,
-          "Price": 0,
-          "EffectiveTime": "2021-10-29T01:06:43.707Z",
-          "ExpirationTime": "2021-10-29T01:06:43.707Z",
-          "LineNumber": 0,
-          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-          "BasePrice": "string",
-          "CreatedDate": "2021-10-29T01:06:43.707Z",
-          "UpdatedDate": "2021-10-29T01:06:43.707Z",
-          "CreatedBy": "string",
-          "UpdatedBy": "string"
-        }
-      ],
-      "BasePriceGrossMargin": [
-        {
-          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-          "EffectiveTime": "2021-10-26T01:06:43.707Z",
-          "ExpirationTime": "2021-10-27T01:06:43.707Z",
-          "GrossMargin": 5,
-          "LineNumber": 1,
-          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-          "BasePrice": "string",
-          "CreatedDate": "2021-10-29T01:06:43.707Z",
-          "UpdatedDate": "2021-10-29T01:06:43.707Z",
-          "CreatedBy": "string",
-          "UpdatedBy": "string"
-        },
-        {
-          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-          "EffectiveTime": "2021-10-28T01:06:43.707Z",
-          "ExpirationTime": "2021-10-29T01:06:43.707Z",
-          "GrossMargin": 10,
-          "LineNumber": 2,
-          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
-          "BasePrice": "string",
-          "CreatedDate": "2021-10-29T01:06:43.707Z",
-          "UpdatedDate": "2021-10-29T01:06:43.707Z",
-          "CreatedBy": "string",
-          "UpdatedBy": "string"
-        }
-      ],
-      "CreatedDate": "2021-10-29T01:06:43.707Z",
-      "UpdatedDate": "2021-10-29T01:06:43.707Z",
-      "CreatedBy": "string",
-      "UpdatedBy": "string"
-    }
-  },
-  "pricelist": {
-    "ObjectId": 0,
-    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
-    "Code": 0,
-    "Message": "",
-    "IsSuccess": true,
-    "Data": [
-      {
-        "Id": "00000000-0000-0000-0000-000000000000",
-        "PriceListCode": "PL_03",
-        "PriceListDescription": "Bảng giá mua áp DSA < 200m",
-        "SalesTerritoryCode": "THPGT",
-        "SalesTerritoryDescription": "Khu vực bán hàng kênh GT",
-        "PriceType": "Purchase Price",
-        "PriceListStatus": true,
-        "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA",
-        "EffectiveTime": "2021-10-14T00:00:00",
-        "ExpirationTime": "2021-10-14T00:00:00",
-        "CreatedDate": "2021-10-14T00:00:00",
-        "UpdatedDate": "2021-10-14T00:00:00",
-        "CreatedBy": "developer",
-        "UpdatedBy": "developer"
+        "Id": "4e193279-80d1-4a74-82b7-69dba26606a7",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [],
+        "Code": "TS_09",
+        "Name": "Name test 09",
+        "Description": "Description test 09",
+        "IsActive": true,
+        "EffectiveDate": "2021-11-12T20:22:22.492",
+        "UntilDate": "2021-11-22T20:22:22.492"
       },
       {
-        "Id": "00000000-0000-0000-0000-000000000000",
-        "PriceListCode": "PL_04",
-        "PriceListDescription": "Bảng giá mua áp Region < 200m",
-        "SalesTerritoryCode": "THPGT",
-        "SalesTerritoryDescription": "Khu vực bán hàng kênh GT",
-        "PriceType": "Purchase Price",
-        "PriceListStatus": true,
-        "PriceListTypeDescription": "Bảng giá mua áp dụng theo Region",
-        "EffectiveTime": "2021-10-14T00:00:00",
-        "ExpirationTime": "2021-10-14T00:00:00",
-        "CreatedDate": "2021-10-14T00:00:00",
-        "UpdatedDate": "2021-10-14T00:00:00",
-        "CreatedBy": "developer",
-        "UpdatedBy": "developer"
-      }
-    ]
-  },
-  "uomitemgroup": {
-    "ObjectId": 0,
-    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
-    "Code": 0,
-    "Message": "",
-    "IsSuccess": true,
-    "Data": [
-      {
-        "Id": "1",
-        "DistributorSellingAreaCode": "DSA-294",
-        "DistributorSellingAreaDescription": "Khu vực DSA"
+        "Id": "607ae837-b1cb-4f67-88c3-3c9e99292055",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [
+          {
+            "Description": "Area",
+            "Level": "2",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Region",
+            "Level": "1",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Country",
+            "Level": "0",
+            "ListPriceListTypeWithLevel": []
+          }
+        ],
+        "Code": "TS_07",
+        "Name": "Name test 07",
+        "Description": "Description test 07",
+        "IsActive": true,
+        "EffectiveDate": "2021-11-12T20:22:22.492",
+        "UntilDate": "2021-11-22T20:22:22.492"
       },
       {
-        "Id": "2",
-        "DistributorSellingAreaCode": "DSA-295",
-        "DistributorSellingAreaDescription": "Khu vực DSA"
+        "Id": "694e8448-431e-41f4-adbe-05c8310dae64",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [
+          {
+            "Description": "Region",
+            "Level": "1",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Area",
+            "Level": "2",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Country",
+            "Level": "0",
+            "ListPriceListTypeWithLevel": []
+          }
+        ],
+        "Code": "TS_02",
+        "Name": "name test 02",
+        "Description": "description test 02",
+        "IsActive": true,
+        "EffectiveDate": "2021-10-29T18:29:43.962",
+        "UntilDate": "2021-10-30T18:29:43.962"
+      },
+      {
+        "Id": "92d11ea2-3e6b-4ca7-8fd5-a3db724d6323",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [
+          {
+            "Description": "Country",
+            "Level": "0",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Area",
+            "Level": "2",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Region",
+            "Level": "1",
+            "ListPriceListTypeWithLevel": []
+          }
+        ],
+        "Code": "TS_01",
+        "Name": "name test 01",
+        "Description": "description test 01",
+        "IsActive": true,
+        "EffectiveDate": "2021-10-28T18:29:43.962",
+        "UntilDate": "2021-10-29T18:29:43.962"
+      },
+      {
+        "Id": "958037ab-ee84-4111-94ef-178d4d1b51ef",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [
+          {
+            "Description": "Area",
+            "Level": "2",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Country",
+            "Level": "0",
+            "ListPriceListTypeWithLevel": [
+              {
+                "Id": "bc6d69c4-ef0b-4e41-8051-0cecda87208b",
+                "PriceListTypeCode": "Bruh",
+                "Description": "DES",
+                "Status": true,
+                "SalesTerritoryCode": "TS_06",
+                "Dsa": false,
+                "OriginalPriority": 6,
+                "CurrentPriority": 6
+              }
+            ]
+          },
+          {
+            "Description": "Region",
+            "Level": "1",
+            "ListPriceListTypeWithLevel": []
+          }
+        ],
+        "Code": "TS_06",
+        "Name": "Name test 06",
+        "Description": "Description test 06",
+        "IsActive": true,
+        "EffectiveDate": "2021-11-12T20:22:22.492",
+        "UntilDate": "2021-11-22T20:22:22.492"
+      },
+      {
+        "Id": "a658f8ee-652c-47fa-952a-81d4e9f8f454",
+        "ListPriceListTypeWithDSA": [],
+        "TerritoryStructureDetail": [
+          {
+            "Description": "Country",
+            "Level": "0",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Area",
+            "Level": "2",
+            "ListPriceListTypeWithLevel": []
+          },
+          {
+            "Description": "Region",
+            "Level": "1",
+            "ListPriceListTypeWithLevel": []
+          }
+        ],
+        "Code": "TS_05",
+        "Name": "Name test 05",
+        "Description": "Description test 05",
+        "IsActive": true,
+        "EffectiveDate": "2021-11-12T20:22:22.492",
+        "UntilDate": "2021-11-22T20:22:22.492"
       }
     ]
   }
