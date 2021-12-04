@@ -1,1 +1,166 @@
-
+{
+  "pricelisttype": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": 1,
+        "PriceListTypeCode": 1,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryLevel": "Area",
+        "ApplyToDSA": true,
+        "Status": true,
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      },
+      {
+        "Id": 2,
+        "PriceListTypeCode": 2,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo Region",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryLevel": "Area",
+        "ApplyToDSA": true,
+        "Status": true,
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      }
+    ]
+  },
+  "baseprice": {
+    "ObjectId": 0,
+    "ObjectGuidId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "Code": 0,
+    "Message": "string",
+    "IsSuccess": true,
+    "Data": {
+      "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "BasePriceCode": "string",
+      "Description": "string",
+      "PriceType": "salesprice",
+      "ContractType": "string",
+      "PurchaseBasePriceCode": "string",
+      "SalesTerritoryCode": "string",
+      "SalesTerritoryDescription": "string",
+      "BasePriceItemGroup": [
+        {
+          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "ItemGroupCode": "string",
+          "Description": "string",
+          "UoM": "string",
+          "PurchasePrice": 0,
+          "GrossMargin": 0,
+          "Price": 0,
+          "EffectiveTime": "2021-10-29T01:06:43.707Z",
+          "ExpirationTime": "2021-10-29T01:06:43.707Z",
+          "LineNumber": 0,
+          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "BasePrice": "string",
+          "CreatedDate": "2021-10-29T01:06:43.707Z",
+          "UpdatedDate": "2021-10-29T01:06:43.707Z",
+          "CreatedBy": "string",
+          "UpdatedBy": "string"
+        }
+      ],
+      "BasePriceGrossMargin": [
+        {
+          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "EffectiveTime": "2021-10-26T01:06:43.707Z",
+          "ExpirationTime": "2021-10-27T01:06:43.707Z",
+          "GrossMargin": 5,
+          "LineNumber": 1,
+          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "BasePrice": "string",
+          "CreatedDate": "2021-10-29T01:06:43.707Z",
+          "UpdatedDate": "2021-10-29T01:06:43.707Z",
+          "CreatedBy": "string",
+          "UpdatedBy": "string"
+        },
+        {
+          "Id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "EffectiveTime": "2021-10-28T01:06:43.707Z",
+          "ExpirationTime": "2021-10-29T01:06:43.707Z",
+          "GrossMargin": 10,
+          "LineNumber": 2,
+          "BasePriceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+          "BasePrice": "string",
+          "CreatedDate": "2021-10-29T01:06:43.707Z",
+          "UpdatedDate": "2021-10-29T01:06:43.707Z",
+          "CreatedBy": "string",
+          "UpdatedBy": "string"
+        }
+      ],
+      "CreatedDate": "2021-10-29T01:06:43.707Z",
+      "UpdatedDate": "2021-10-29T01:06:43.707Z",
+      "CreatedBy": "string",
+      "UpdatedBy": "string"
+    }
+  },
+  "pricelist": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "PriceListCode": "PL_03",
+        "PriceListDescription": "Bảng giá mua áp DSA < 200m",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryDescription": "Khu vực bán hàng kênh GT",
+        "PriceType": "Purchase Price",
+        "PriceListStatus": true,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo DSA",
+        "EffectiveTime": "2021-10-14T00:00:00",
+        "ExpirationTime": "2021-10-14T00:00:00",
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      },
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "PriceListCode": "PL_04",
+        "PriceListDescription": "Bảng giá mua áp Region < 200m",
+        "SalesTerritoryCode": "THPGT",
+        "SalesTerritoryDescription": "Khu vực bán hàng kênh GT",
+        "PriceType": "Purchase Price",
+        "PriceListStatus": true,
+        "PriceListTypeDescription": "Bảng giá mua áp dụng theo Region",
+        "EffectiveTime": "2021-10-14T00:00:00",
+        "ExpirationTime": "2021-10-14T00:00:00",
+        "CreatedDate": "2021-10-14T00:00:00",
+        "UpdatedDate": "2021-10-14T00:00:00",
+        "CreatedBy": "developer",
+        "UpdatedBy": "developer"
+      }
+    ]
+  },
+  "uomitemgroup": {
+    "ObjectId": 0,
+    "ObjectGuidId": "00000000-0000-0000-0000-000000000000",
+    "Code": 0,
+    "Message": "",
+    "IsSuccess": true,
+    "Data": [
+      {
+        "Id": "1",
+        "DistributorSellingAreaCode": "DSA-294",
+        "DistributorSellingAreaDescription": "Khu vực DSA"
+      },
+      {
+        "Id": "2",
+        "DistributorSellingAreaCode": "DSA-295",
+        "DistributorSellingAreaDescription": "Khu vực DSA"
+      }
+    ]
+  }
+}
