@@ -16,6 +16,17 @@
           "color_code": "#4AC0A4"
         },
         {
+          "appointment_id": 2,
+          "requester": "Phạm Đan Trường",
+          "avatar": "https://randomuser.me/api/portraits/women/14.jpg",
+          "patient_id": 2,
+          "symptom": "To have a few routine tests done 😊",
+          "start_time": "2022-01-12 9:00:00",
+          "end_time": "2022-01-12 10:00:00",
+          "status": "pending",
+          "color_code": "#70BDE9"
+        },
+        {
           "appointment_id": 3,
           "requester": "Catania",
           "avatar": null,
@@ -49,6 +60,28 @@
           "color_code": "#072D60"
         },
         {
+          "appointment_id": 6,
+          "requester": "Anh Tài",
+          "avatar": null,
+          "patient_id": 6,
+          "symptom": "I need to check my dead tooth. Doctor have cleaned 2 root canals but didnt noticed that I have 3rd.",
+          "start_time": "2022-01-12 10:00:00",
+          "end_time": "2022-01-12 11:00:00",
+          "status": "pending",
+          "color_code": "#E8674D"
+        },
+        {
+          "appointment_id": 18,
+          "requester": "Kieran",
+          "avatar": "https://randomuser.me/api/portraits/men/34.jpg",
+          "patient_id": 7,
+          "symptom": "Tẩy vôi răng",
+          "start_time": "2022-01-12 11:00:00",
+          "end_time": "2022-01-12 12:00:00",
+          "status": "approved",
+          "color_code": "#D62D68"
+        },
+        {
           "appointment_id": 19,
           "requester": "Natalia",
           "avatar": null,
@@ -69,6 +102,17 @@
           "end_time": "2022-01-12 12:00:00",
           "status": "pending",
           "color_code": "#E8674D"
+        },
+        {
+          "appointment_id": 22,
+          "requester": "Nguyen Van Manh",
+          "avatar": null,
+          "patient_id": 10,
+          "symptom": "To have a few routine tests done",
+          "start_time": "2022-01-12 13:00:00",
+          "end_time": "2022-01-12 14:00:00",
+          "status": "approved",
+          "color_code": "#4AC0A4"
         },
         {
           "appointment_id": 23,
