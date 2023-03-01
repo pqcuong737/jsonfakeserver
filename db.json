@@ -3,8 +3,8 @@
     "messages": [],
     "data": [
       {
-        "code": "code1",
-        "description": "des1",
+        "id": "id1",
+        "plugin": "p1",
         "name": "helo1",
         "attribute": "a1",
         "test": 0
